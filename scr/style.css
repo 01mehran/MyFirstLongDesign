@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #faf5e5;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 20px 85px;
+  display: flex;
+  justify-content: space-between;
+}
+header div {
+  display: flex;
+  column-gap: 15px;
+}
+header div span{
+    color: #1b1919e5;
+    font-size: 11px;
+    font-weight: 400;
+}
+header div span:hover{
+    cursor: pointer;
+    color: black;
+}
