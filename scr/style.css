@@ -16,12 +16,54 @@ header div {
   display: flex;
   column-gap: 15px;
 }
-header div span{
-    color: #1b1919e5;
-    font-size: 11px;
-    font-weight: 400;
+header div span {
+  color: #1b1919e5;
+  font-size: 11px;
+  font-weight: 400;
 }
-header div span:hover{
-    cursor: pointer;
-    color: black;
+header div span:hover {
+  cursor: pointer;
+  color: black;
+}
+.first-part {
+  display: flex;
+  justify-content: space-around;
+}
+.third-img {
+  margin-top: 180px;
+  width: calc(100% / 2);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.third-img .first-h {
+  margin-left: 55px;
+  width: 200px;
+  text-align: center;
+  font-weight: 500;
+  word-spacing: 6px;
+  line-height: 1.25;
+  font-size: 30px;
+}
+.third-img .first-p {
+  margin-left: 15px;
+  margin-top: 13px;
+  color: #242222;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 80px;
+}
+.singe-container-img {
+  width: calc(100% / 2);
+}
+.first-img {
+  width: 750px;
+  height: 730px;
+  float: right;
+  margin-right: 10px;
+}
+hr {
+  margin-top: 80px;
+  width: 300px;
+  text-align: center;
 }
