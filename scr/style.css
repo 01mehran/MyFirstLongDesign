@@ -104,15 +104,90 @@ header div span:hover {
   text-align: left;
   font-weight: 600px;
 }
-.third-part_firstP{
+.third-part_firstP {
   font-size: 1.2px;
   text-align: center;
   letter-spacing: 1.5px;
 }
-.second-hr{
+.second-hr {
   width: 160px;
   border: 1px solid #2b2a2a85;
   margin-top: 5px;
   margin-bottom: 15px;
-
+}
+.third-section {
+  margin-top: 150px;
+}
+.third-section_parent {
+  padding: 0 180px;
+}
+.third-section_FirstChild {
+  display: flex;
+  justify-content: space-between;
+}
+.third-section_FirstChild img {
+  height: 480px;
+  width: 450px;
+}
+.third-section_SecondChild {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.third-section_SecondChild img {
+  width: 450px;
+  height: 480px;
+}
+.third-section_firsth {
+  text-transform: uppercase;
+  color: #000000c2;
+  letter-spacing: 3px;
+}
+.third-section_secondh {
+  margin: 50px 0;
+  width: 350px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 50px;
+}
+.third-section_thirdh {
+  width: 440px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.third-section_fourthh {
+  font-size: 11px;
+}
+.third-section_hr {
+  width: 112px;
+  border: 1px solid #0000004d;
+  margin-top: 2px;
+}
+.third-section_fifthh {
+  width: 220px;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-align: left;
+}
+.bookIn-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 230px;
+  justify-content: center;
+}
+.bookIn-container span {
+  margin-top: 50px;
+  font-size: 1px;
+  letter-spacing: 2px;
+}
+.bookIn-container hr {
+  width: 70px;
+  border: 1px solid rgba(128, 128, 128, 0.526);
+  margin-top: 2px;
 }
