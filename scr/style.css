@@ -331,6 +331,53 @@ header div span:hover {
   height: 25px;
   text-transform: uppercase;
   font-weight: 400;
+  cursor: pointer;
+}
+.solidHr{
+  margin-top: 100px;
+  border: 1px solid rgb(189, 180, 180);
+}
+.Familly-part{
+  margin-top: 130px;
+  display: flex;
+}
+.Family-part_img-container{
+  width: 50%;
+}
+.Family-part_img-container img{
+  margin: auto;
+  display: block;
+}
+.Familly-part_secondChild{
+  margin-top: 70px;
+
+}
+.Familly-part-secondChild_Fp{
+  font-size: 14px;
+  color: #000000b9;
+}
+.Familly-part_secondChild h1{
+  margin-top: 40px;
+  font-size: 55px;
+  font-weight: 400;
+  width: 350px;
+}
+.Familly-part-secondChild_Sp{
+  margin: 50px 0 7px 0;
+}
+.Familly-part-secondChild_Tp{
+  width: 320px;
+  margin-bottom: 20px;
+  color: #000000e0;
+}
+.Familly-part hr{
+  margin-top: 50px;
+}
+.Familly-part_twoImg{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
 }
 
 
