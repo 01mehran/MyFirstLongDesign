@@ -66,12 +66,9 @@ header div span:hover {
   font-size: 13px;
   margin-bottom: 80px;
 }
-.single-container-img {
-  width: calc(100% / 2);
-  padding-bottom: 600px;
-}
+
 .single-img {
-  width: 750px;
+  width: 674px;
   height: 730px;
   float: right;
 }
@@ -131,19 +128,13 @@ header div span:hover {
   display: flex;
   justify-content: space-between;
 }
-.third-section_FirstChild img {
-  /* height: 480px; */
-  width: 450px;
-}
+
 .third-section_SecondChild {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
 }
-.third-section_SecondChild img {
-  width: 450px;
-  /* height: 480px; */
-}
+
 .third-section_firsth {
   text-transform: uppercase;
   color: #000000c2;
@@ -184,7 +175,7 @@ header div span:hover {
 .bookIn-container {
   display: flex;
   flex-direction: column;
-  margin-right: 230px;
+  margin-right: 165px;
   justify-content: center;
 }
 .bookIn-container span {
@@ -248,11 +239,11 @@ header div span:hover {
   width: 50%;
 }
 .Under-brown-part_img img{
-  margin-left: 130px;
+  margin-left: 190px;
 }
 .Under-brown-part_GiftPart{
   margin-top: 30px;
-  margin-left: 250px;
+  margin-left: 170px;
   width: 50%;
 }
 .Under-brown-part_GiftPart span{
@@ -338,7 +329,8 @@ header div span:hover {
   border: 1px solid rgb(189, 180, 180);
 }
 .Familly-part{
-  margin-top: 130px;
+  margin: 130px 0 70px 0;
+  
   display: flex;
 }
 .Family-part_img-container{
@@ -350,6 +342,7 @@ header div span:hover {
 }
 .Familly-part_secondChild{
   margin-top: 70px;
+  margin-left: 120px;
 
 }
 .Familly-part-secondChild_Fp{
@@ -379,5 +372,89 @@ header div span:hover {
   justify-content: space-between;
   width: 450px;
 }
+.addressPart{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.addressContainer{
+  margin: 50px 0 30px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.73);
+}
+.addressContainerFp{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.InstaFacbCon{
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin: 30px 0 15px 0;
+}
+.InstaFacbCon div p{
+  font-size: 14px;
+}
+.InstaFacbCon-par{
+  margin-bottom: 6px;
+  color: #000000bd;
+  font-weight: 400;
+}
+footer{
+  background-color: #FFD36B;
+  height: 240px;
+  margin-top: 70px;
+  display: flex;
+}
+.footerImgContainer{
+  /* width: 450px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footerImgContainer hr{
+  height: 100%;
+  border: 1px solid rgb(123, 119, 119);
+  margin-left: 130px;
 
+}
+.footerImgContainer img{
+  margin-left: 100px;
+
+}
+.footerChild{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+.footerChild p{
+  margin: 15px 0 10px 0;
+}
+.footerChild .footerChildTitleSpan{
+  color: #000000d0;
+  font-weight: 400;
+  font-size: 13px;
+}
+.informationPart{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 13px;
+  color: #000000;
+  margin-bottom: -10px;
+}
+.informationPart span{
+  margin-right: 20px;
+}
+.footerHoriHr{
+  width: 100%;
+  margin-bottom: -48px;
+}
+.footerHoriHr hr{
+  border: 1px solid rgb(123, 119, 119) ;
+}
 
